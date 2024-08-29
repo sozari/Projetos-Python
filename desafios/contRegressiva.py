@@ -1,8 +1,5 @@
 valor = 10
-condicao = True
 
-
-
-while condicao <= 0:
+while valor > 0:
     print (valor)
     valor -= 1
