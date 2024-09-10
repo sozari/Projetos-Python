@@ -12,7 +12,7 @@ while condicao:
 
         contatos.append(novo_contato)
 
-        opcao = int(input("deseja continuar?"))
+        opcao = int(input("1 - adicionar novo contato 2- mostrar contatos 3 - sair."))
 
     elif opcao == 2:
         print(contatos)
