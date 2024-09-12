@@ -19,9 +19,7 @@ def tabela_festa():
         print("Voce nao planeja beber")
     else:
         print("voce digitou um numero invalido")
-        executar_main = False
-        if not executar_main:
-            return
+        return
 
 
     num = int(input("Deseja comer?"))
@@ -32,9 +30,7 @@ def tabela_festa():
         print("Voce nao planeja comer")
     else:
         print("voce digitou um numero invalido")
-        executar_main = False
-        if not executar_main:
-            return
+        return
 
 
     num = int(input("Deseja gastar com transporte?"))
@@ -54,9 +50,7 @@ def tabela_festa():
         com_amigos = (bebida + comida + transporte) * (1 + amigos)
     else:
         print("valor negativo invalido")
-        executar_main = False
-        if not executar_main:
-            return
+        return
 
 
     print(f"O total estimado para a noite é: {com_amigos} reais.")
