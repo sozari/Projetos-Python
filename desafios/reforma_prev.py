@@ -1,10 +1,10 @@
 
 def calculo_beneficio():
 
-    sexo = input("Qual seu sexo? [M] masculino / [F] feminino")
+    sexo = input("Qual seu sexo? [M] masculino / [F] feminino: ")
     idade = int(input("Qual idade voce começou a contribuir com a previdencia"))
 
-    if sexo == "M" or "m":
+    if sexo == "M" or sexo == "m":
         idade_masc = 65 - idade
         trabalho = 40 + idade
         print("Genero masculino")
@@ -18,7 +18,7 @@ def calculo_beneficio():
         elif idade_masc == 25:
             print('com essa idade você terá direito a 70'+"%"+' do beneficio')  
         
-    elif sexo == "F" or "f":
+    elif sexo == "F" or sexo == "f":
         idade_femi = 62 - idade
         trabalho = 40 + idade
         print("Genero feminino")
