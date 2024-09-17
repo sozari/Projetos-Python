@@ -1,13 +1,12 @@
 import time
 
-minutos = int(input("Quantos minutos deseja esperar? "))
+minutos = int(input("Quantos minutos deseja esperar? ")) * 60
 
 min_estatico = minutos -1
 
 min = minutos * 60
+while minutos >= 0:
 
-    
-for x in range(min):
     if min <0:
         min_estatico-1
     elif min > 60:
