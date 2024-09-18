@@ -9,6 +9,7 @@ while minutos >= 0:
 
     if min <0:
         min_estatico-1
+        min = 59
     elif min > 60:
         min_estatico+1 
     print(f"{min_estatico}:{min}")

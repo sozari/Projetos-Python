@@ -1,0 +1,19 @@
+
+frase: aa
+frase: bb
+frase: a
+frase: a
+frase: bbb
+frase: a
+frase: a
+frase: a
+frase: a
+frase: aa
+frase: bb
+frase: cc
+frase: asdasd
+frase: asdadsada
+frase: asdasdaddad
+frase: adsdadsda
+frase: asdmasdldmsadmad
+frase: asdamda,dmas,.dmasd,amd,lçdmsaa
