@@ -17,3 +17,11 @@ frase: asdasdaddad
 frase: adsdadsda
 frase: asdmasdldmsadmad
 frase: asdamda,dmas,.dmasd,amd,lçdmsaa
+frase: a
+frase: b
+frase: a
+frase: b
+frase: a
+frase: b
+frase: a
+frase: bn
