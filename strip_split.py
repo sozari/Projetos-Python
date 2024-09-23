@@ -1,6 +1,8 @@
 string = " chave1: valor1 , chave2: valor2 , chave3: valor3 "
 
 lista = string.strip().split(": ")
+print(lista)
+
 
 chave1 = lista[0].split(" , ")[0]
 print(chave1)
