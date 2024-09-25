@@ -16,23 +16,25 @@ def carregar_variaveis(path_file):
     return variaveis
 
 
-def verifica_primeira_vez():
-    match os.path.exists("variaveis.txt"): #verifica a existencia do variaveis.txt
-
+def verificar_primeira_vez():
+    match os.path.exists("ativ/a.txt"):
         case True:
-            variaveis_carregadas = carregar_variaveis('variaveis.txt')
-
+            variaveis_carregadas = carregar_variaveis('ativ/a.txt') 
+   
             if len(variaveis_carregadas) > 0:
                 print(f"seja bem vindo novamente {variaveis_carregadas["nome"]}")
             else:
-                nome_v =  input("por favor digite seu nome")
+                nome_v = input("por favor digite seu nome: ")
+                tel_v = input("por favor digite seu telefone: ")
+                email_v = input("por favor digite seu email: ")
 
-                salvar_variaveis('variaveis.txt',nome = nome_v )
+                salvar_variaveis('ativ/a.txt',nome = nome_v, telefone = tel_v, email= email_v)
         case False:
                 nome_v =  input("por favor digite seu nome")
+                tel_v = input("por favor digite seu telefone: ")
+                email_v = input("por favor digite seu email: ")
 
-                salvar_variaveis('variaveis.txt',nome = nome_v )
+
+                salvar_variaveis('ativ/a.txt', nome = nome_v, telefone = tel_v, email= email_v)
    
-verifica_primeira_vez()
-
-
+verificar_primeira_vez()
