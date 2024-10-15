@@ -1,0 +1,3 @@
+nome: joao | idade: 15
+nome: maria | idade: 20
+nome: pedro | idade: 27
